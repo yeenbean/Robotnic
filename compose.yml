@@ -3,3 +3,4 @@ services:
     build: .
     volumes:
       - ./.env:/app/.env
+      - ./settings.json:/app/settings.json
