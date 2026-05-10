@@ -1,0 +1,5 @@
+services:
+  robotnic:
+    image: .
+    volumes:
+      - ./.env:/app/.env
