@@ -1,5 +1,5 @@
 services:
   robotnic:
-    image: .
+    build: .
     volumes:
       - ./.env:/app/.env
